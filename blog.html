@@ -1,47 +1,36 @@
 <!Doctype html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: white;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #9500ff;
-  color: white;
-}
-</style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="topnav">
+  <img src="projectimages/hz-logo.jpg" alt="logo" height="48" width="48" style="float:left;"/>
   <a href="index.html">Home</a>
   <a href="profile.html">Profile</a>
   <a href="dashboard.html">Dashboard</a>
-  <a href="faq.html">FAQ</a>
   <a class="active" href="blog.html">Blog</a>
+  <a href="faq.html">FAQ</a>
+  <div class="container" onclick="myFunction(this), openNav()" >
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
 </div>
+
+<header>
+  <div id="mySidenav" class="sidenav">
+    <a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen" target="_blank">C.E.R.</a>
+    <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf" target="_blank">I.R.</a>
+    <a href="https://glaze-donut-5a5.notion.site/Assignment-Specification-661c5ac5d7494328a58be61d00dd41e4" target="_blank">Learn</a>
+    <a href="https://teams.microsoft.com/_#/school/conversations/Algemeen?threadId=19:827654897ab746089c081f24aff1c984@thread.skype&ctx=channel" target="_blank">Teams</a>
+    <a href="https://hz.osiris-student.nl/#/home" target="_blank">Study progress</a>
+    <a href="https://github.com/HZ-HBO-ICT" target="_blank">Github</a>
+  </div>
+</header>
+
+<script src="animation.js"></script>
 
 <main>
   <article>
