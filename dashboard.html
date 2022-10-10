@@ -9,9 +9,9 @@
   <title>Dashboard</title>
 </head>
 
-<body style="height: 100vh;display: flex;align-items: center;justify-content: center;">
+<body style="height: 100vh;display: flex;align-items: center;justify-content: center; background-color: lightblue;">
   <div class="topnav">
-    <img src="projectimages/HZ-logo.jpg" alt="logo" height="48" width="48" style="float:left;" />
+    <img src="projectimages/logo-hz.jpg" alt="logo" height="48" width="45" style="float:left;" />
     <a href="index.html">Home</a>
     <a href="profile.html">Profile</a>
     <a class="active" href="dashboard.html">Dashboard</a>
@@ -39,10 +39,10 @@
     </div>
   </header>
 
-  <script src="animation.js"></script>
-
+ <div>
   <main>
-    <table>
+    <h2 class="dashboardh2">Dashboard</h2>
+    <table class="tabletext">
       <tr>
         <th>Blok</th>
         <th>Cursus</th>
@@ -52,23 +52,116 @@
       </tr>
       <tr>
         <td rowspan="3">1</td>
-        <td>First course</td>
-        <td>5</td>
-        <td>Geschreven tentamen</td>
-        <td>5,9</td>
-      </tr>
-      <tr>
-        <td rowspan="2">Second course</td>
-        <td rowspan="2">5</td>
-        <td>Casustoets</td>
-        <td>7,2</td>
-      <tr>
+        <td>Program & Career Oriëntation</td>
+        <td>2.5</td>
         <td>Assesment</td>
-        <td>5,3</td>
+        <td class="gradeNA">-</td>
       </tr>
+      <tr>
+        <td rowspan="1">Computer Science Basics</td>
+        <td rowspan="1">5</td>
+        <td>Written Exam</td>
+        <td class="gradeNA">-</td>
+      </tr>
+      <tr>
+        <td rowspan="1">Programming Basics</td>
+        <td>5</td>
+        <td>Case Study Exam</td>
+        <td class="gradeNA">-</td>
+      </tr>
+      <tr>
+        <td rowspan="2">2</td>
+        <td rowspan="2">Object Oriënted Programming</td>
+        <td rowspan="2">10</td>
+        <td>Case Study (50%)</td>
+        <td class="gradeNA">-</td>
+      </tr>
+      <tr>
+        <td>Project (50%)</td>
+        <td class="gradeNA">-</td>
+      </tr>
+      <tr>
+        <td rowspan="4">3</td>
+        <td>Framework Development 1</td>
+        <td>5</td>
+        <td>Case Study</td>
+        <td class="gradeNA">-</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Framework Project 1</td>
+        <td rowspan="3">7.5</td>
+        <td>Project (33%)</td>
+        <td class="gradeNA">-</td>
+      </tr>
+      <tr>
+        <td>Case Study Exam (33%)</td>
+        <td class="gradeNA">-</td>
+      </tr>
+      <tr>
+        <td>Report (33%)</td>
+        <td class="gradeNA">-</td>
+      </tr>
+      <tr>
+        <td rowspan="3">4</td>
+        <td rowspan="3">Framework Project 2</td>
+        <td rowspan="3">10</td>
+        <td>Portfolio (50%)</td>
+        <td class="gradeNA">-</td>
+      </tr>
+      <tr>
+        <td>Project (25%)</td>
+        <td class="gradeNA">-</td>
+      </tr>
+      <tr>
+        <td>Assesment (25%)</td>
+        <td class="gradeNA">-</td>
+      </tr>
+      <tr>
+        <td>Het hele jaar</td>
+        <td>PPD</td>
+        <td>12.5</td>
+        <td>Portfolio</td>
+        <td class="gradeNA">-</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Wanneer ik wil</td>
+        <td>Personality 1</td>
+        <td>1.25</td>
+        <td>Portfolio</td>
+        <td class="gradeNA">-</td>
+      </tr>
+      <tr>
+        <td>Personality 2</td>
+        <td>1.25</td>
+        <td>Portfolio</td>
+        <td class="gradeNA">-</td>
       </tr>
     </table>
   </main>
+
+<br>
+<table style="width: 100%;">
+  <tr>
+    <td class="gradeNA">To be completed</td>
+    <td class="gradeSufficient">Sufficient</td>
+    <td class="gradeInsufficient">Insufficient</td>
+  </tr>
+</table>
+
+<br>
+<div class="prcontainer">
+  <div class="skill progress">0/60</div>
+</div>
+
+<div>
+  <p>You need 60 EC to get propaedeutic diploma</p>
+  <p>Above 45 EC you can advance to your second year but you have to catch up on the remaining EC</p>
+  <p>Below 45 EC you failed the current year and you will get a NBSA. You don't want this!</p>
+</div>
+
+
 </body>
+
+ <script src="animation.js"></script>
 
 </html>

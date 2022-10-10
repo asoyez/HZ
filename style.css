@@ -35,7 +35,29 @@ body {
 table,
 td,
 th {
-  border: 1px solid black;
+  border: 1px solid white;
+  border-spacing: 0cm;
+  column-width: 150px;
+  text-align: center;
+}
+
+.tabletext{
+  color: white;
+}
+
+.gradeNA{
+  background-color: lightseagreen;
+  color: white;
+}
+
+.gradeSufficient{
+  background-color: lightgreen;
+  color: white;
+}
+
+.gradeInsufficient{
+  background-color: lightcoral;
+  color: white;
 }
 
 .sidenav {
@@ -122,4 +144,31 @@ th {
 .right{
   text-align: center;
   size: 200px;
+}
+
+.dashboardh2{
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+.prcontainer {
+  background-color: rgb(192, 192, 192);
+  width: 100%;
+  border-radius: 15px;
+}
+
+.skill {
+  background-color: #9500ff;
+  color: white;
+  padding: 1%;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.progress {
+  width: 0%;
 }
