@@ -185,6 +185,7 @@ img {
 /* Dashboard page */
 .dashboardh2{
   text-align: center;
+  margin-top: 40px;
 }
 
 p {
@@ -208,6 +209,13 @@ p {
 
 .progress {
   width: 0%;
+}
+
+.table2 {
+  border: 1px solid white;
+  border-spacing: 0cm;
+  column-width: 150px;
+  text-align: center;
 }
 
 /* FAQ page */
